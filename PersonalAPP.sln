@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{002BFE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalApp.Domains", "Domain\PersonalApp.Domains\PersonalApp.Domains.csproj", "{D1DDCA02-35C3-42A3-9F54-78C7679DCAEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{E8AF0C9A-4FBA-4944-A200-8DCAD06519A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalApp.DAL", "DAL\PersonalApp.DAL\PersonalApp.DAL.csproj", "{C56BB627-534E-461A-8CCE-320CA136915F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{D1DDCA02-35C3-42A3-9F54-78C7679DCAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1DDCA02-35C3-42A3-9F54-78C7679DCAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1DDCA02-35C3-42A3-9F54-78C7679DCAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C56BB627-534E-461A-8CCE-320CA136915F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C56BB627-534E-461A-8CCE-320CA136915F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C56BB627-534E-461A-8CCE-320CA136915F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C56BB627-534E-461A-8CCE-320CA136915F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1DDCA02-35C3-42A3-9F54-78C7679DCAEA} = {002BFE8B-CBCA-4A2D-A970-968815D3228A}
+		{C56BB627-534E-461A-8CCE-320CA136915F} = {E8AF0C9A-4FBA-4944-A200-8DCAD06519A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2C6E20F-18F1-43BA-89D3-65FEBCFC3674}
